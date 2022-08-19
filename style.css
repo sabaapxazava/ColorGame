@@ -1,0 +1,118 @@
+body {
+    margin:0px;
+    padding:0px;
+    background-color:rgb(2 11 19)
+}
+
+* {
+    color: white;
+}
+
+.game-logic-changer {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    display: flex;
+    width: auto;
+    padding: 5px;
+    background: #09345880;
+    border-radius: 14px;
+    width: 240px;
+    height: 48px;
+}
+
+
+.hide {
+    display: none!important;;
+}
+
+.show{
+    display: block!important;
+}
+
+#easy,#hard{
+    position: absolute;
+    z-index: 10;
+}
+
+#easy {
+    right: 8px
+}
+
+.selected-btn {
+    opacity: 1!important;
+}
+
+.logic-selector {
+    position: absolute;
+    transition: 1s;
+    width: 120px;
+    height: 38px;
+    padding: 0px!important;
+    margin: 0px;
+    opacity: 0.7!important;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 0%);
+}
+
+.hard {
+    right: 113px;
+}
+
+.easy {
+    right: 8px;
+}
+
+.game-logic-changer .btn {
+    margin:0px;
+    opacity: 0.5;
+    color: white;
+}
+
+.m-top-3 {
+    margin-top:30px!important;
+}
+
+.m-top-5 {
+    margin-top: 50px!important;;
+}
+
+.m-top-7 {
+    margin-top: 70px!important;
+}
+
+
+#winnerColor {
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 47px;
+}
+
+h1 p:first-child {
+    letter-spacing: 5px;
+}
+
+h1 p:last-child {
+    letter-spacing: 20px;
+}
+
+.box {
+    width:190px;
+    height: 190px;
+    border-radius: 12px;
+    background-color: steelblue;
+    margin-top: 25px;
+}
+
+.btn {
+    margin:0px 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
