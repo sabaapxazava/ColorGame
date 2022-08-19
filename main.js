@@ -145,7 +145,7 @@ allBoxes.forEach(boxItem => {
                     this.classList.add("hide");
                 }
             }
-            if (tryCount == -1) {
+            if (tryCount == 0) {
                 gameLogic = false;
             }
         }
