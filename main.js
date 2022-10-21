@@ -116,9 +116,8 @@ function showAndHideBtns(count) {
 function showSuccessAlert() {
     swal({
         title: "Good job!",
-        text: "You clicked the button!",
+        text: "Right Color!",
         icon: "success",
-        button: "Aww yiss!",
     });
 }
 
